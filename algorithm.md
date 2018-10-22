@@ -45,7 +45,7 @@ These are assumptions based on my understanding of their algorithm.
 ### When
 Before Kyle and Logan took over.
 
-### How 
+### How
 I would assume with a commercially available text editor.
 * Java
 * Blast
@@ -114,3 +114,8 @@ Mostly with:
 * Smith-Waterman instead of (or alongside of Levenshtein distance)
 * New language for defining weights for subsequences of subsequences
 * Something about gaps
+
+
+### Current Problems
+* There are now known cases when runParamSweep (which invokes test_script) has results with NO BLAST but when double checked on the BLAST website there are lots of results. WHY??
+* Possible answer: PDB hasn't been updated since downloading in a long time.
